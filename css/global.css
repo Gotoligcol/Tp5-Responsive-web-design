@@ -37,7 +37,7 @@ header .user {
 }
 
 header .user a {
-    font-size: 13px;
+    font-size: 0.813em;
     color: #89949b;
     padding-top: 5px;
 }
@@ -54,13 +54,13 @@ main article {
 h3 {
     color: #b8c3c9;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 0.688em;
     font-weight: normal;
     margin-bottom: 10px;
 }
 
 nav ul li a { 
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: normal;
     color: #828c92;
 }
@@ -85,14 +85,14 @@ nav ul li:last-child {
 
 h1 {
     color: #4b5c66;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: normal;
     margin: 0 0 8px 0;
 }
 
 .name p { 
     color: #a0aab1;
-    font-size: 12px;
+    font-size: 0.750em;
 }
 
 .name p img { 
@@ -102,7 +102,7 @@ h1 {
 
 .stats-links {
     color: #4b5c66;
-    font-size: 12px;
+    font-size: 0.750em;
     padding: 15px 0px 10px 0px;
     border-bottom: 1px solid #e1e6e9;
     margin-bottom: 20px;
@@ -117,13 +117,13 @@ h1 {
 }
 
 .stats-links a {
-    font-size: 12px;
+    font-size: 0.750em;
     font-weight: normal;
     color: #4b5c66;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 1.250em;
     font-weight: normal;
     color: #4b5c66;
 }
@@ -137,7 +137,7 @@ input.search {
     box-shadow: none;
     height: 28px;
     width: 100%;
-    font-size: 13px;
+    font-size: 0.813em;
     padding: 3px 6px 3px 25px;
     border: 1px solid #d0dde9;
     margin: 0;
@@ -151,7 +151,7 @@ input.submit {
 }
 
 .station {
-    font-size: 12px;
+    font-size: 0.750em;
     color: #008fd5;
     border-radius: 5px;
     border: 1px solid #b8c3c9;
@@ -168,9 +168,188 @@ input.submit {
     background-image: url("../img/icon/station-white.png");
 }
 
+.search_bar
+{
+
+}
+
+@media only screen and (max-width: 900px)
+{
+    .search_bar
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .share
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1400px)
+{
+    .user
+    {
+        font-size: 1.000em;
+    }
+
+    h3
+    {
+        font-size: 0.813em;
+    }
+
+    nav ul li a 
+    {
+        font-size: 1.125em;
+    }
+
+    h1
+    {
+        font-size: 2.000em;
+    }
+
+    .name
+    {
+        font-size: 0.900em;
+    }
+
+    .stats-links
+    {
+        font-size: 0.900em;
+    }
+
+    h2
+    {
+        font-size: 1.600em;
+    }
+
+    input.search
+    {
+        font-size: 1.000em;
+    }
+
+    .station
+    {
+        font-size: 0.900em;
+    }
+
+    #albums article
+    {
+        font-size: 1.000em;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .user
+    {
+        font-size: 0.600em;
+    }
+
+    h3
+    {
+        font-size: 0.480em;
+    }
+
+    nav ul li a 
+    {
+        font-size: 0.675em;
+    }
+
+    h1
+    {
+        font-size: 1.000em;
+    }
+
+    .name
+    {
+        font-size: 0.550em;
+    }
+
+    .stats-links
+    {
+        font-size: 0.550em;
+    }
+
+    h2
+    {
+        font-size: 0.900em;
+    }
+
+    input.search
+    {
+        font-size: 0.600em;
+    }
+
+    .station
+    {
+        font-size: 0.550em;
+    }
+
+    #albums article
+    {
+        font-size: 0.600em;
+    }
+}
+
+@media only screen and (max-width: 450px)
+{
+     .user
+    {
+        font-size: 0.400em;
+    }
+
+    h3
+    {
+        font-size: 0.280em;
+    }
+
+    nav ul li a 
+    {
+        font-size: 0.475em;
+    }
+
+    h1
+    {
+        font-size: 0.800em;
+    }
+
+    .name
+    {
+        font-size: 0.350em;
+    }
+
+    .stats-links
+    {
+        font-size: 0.350em;
+    }
+
+    h2
+    {
+        font-size: 0.700em;
+    }
+
+    input.search
+    {
+        font-size: 0.400em;
+    }
+
+    .station
+    {
+        font-size: 0.350em;
+    }
+
+    #albums article
+    {
+        font-size: 0.400em;
+    }
+}
 
 #albums article {
-    font-size: 13px;
+    font-size: 0.813em;
     color: #89949b;
     margin: 10px 0;
 }
@@ -203,6 +382,7 @@ input.submit {
     color: #ff5d5d;
     margin-left: 5px;
 }
+
 
 nav.browse a, nav.music a {
     padding-left: 20px;
